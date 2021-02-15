@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Key } from 'readline';
 
 @Component({
   selector: 'app-data-binding',
@@ -16,7 +15,6 @@ export class DataBindingComponent implements OnInit {
   valorSalvo = '';
 
   isMouseOver: boolean = false;
-
 
   getValor() {
     return 1;
