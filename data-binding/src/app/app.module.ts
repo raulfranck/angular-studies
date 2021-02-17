@@ -8,6 +8,7 @@ import {MeuFormModule} from './meu-form/meu-form.module';
 import { InputPropertisComponent } from './input-propertis/input-propertis.component';
 import { OutpuPropertisComponent } from './outpu-propertis/outpu-propertis.component';
 import { CicloComponent } from './ciclo/ciclo.component';
+import { TesteScssComponent } from './teste-scss/teste-scss.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CicloComponent } from './ciclo/ciclo.component';
     DataBindingComponent,
     InputPropertisComponent,
     OutpuPropertisComponent,
-    CicloComponent
+    CicloComponent,
+    TesteScssComponent
   ],
   imports: [
     BrowserModule,
