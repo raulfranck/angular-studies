@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DiretivasNgifComponent } from './diretivas-ngif/diretivas-ngif.component';
+import { DiretivaNgforComponent } from './diretiva-ngfor/diretiva-ngfor.component';
+import { DiretivaNgclassComponent } from './diretiva-ngclass/diretiva-ngclass.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DiretivasNgifComponent
+    DiretivasNgifComponent,
+    DiretivaNgforComponent,
+    DiretivaNgclassComponent
   ],
   imports: [
     BrowserModule
